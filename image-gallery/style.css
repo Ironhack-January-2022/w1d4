@@ -73,3 +73,21 @@ body {
 } 
 
 /* https://www.w3schools.com/cssref/playit.asp?filename=playcss_animation-timing-function&preval=ease-in */
+
+/* @media (max-width: 480px) {
+	.container {
+		flex-direction: column;
+	}	
+	.box {
+		width: 80vw;
+	}
+} */
+
+@media (min-width: 340px) and (max-width: 480px) {
+	.container {
+		flex-direction: column;
+	}	
+	.box {
+		width: 80vw;
+	}
+}
